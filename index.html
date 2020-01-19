@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en" ng-app="s4s">
+<head>
+    <title>This is nice translator</title>
+    <meta charset="UTF-8">
+	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+<br>
+
+<div class="PageBanner"><div id="bannerCnt"><img  alt="s4s" src="banner.png"></div>
+
+<div class="PageTitle">[S4S] Translator</div>
+</div>
+<hr>
+<div id="base">
+    <div id="textcontainers"class="container" ng-controller="S4SController">
+        <textarea id="tbox" class="translatebox" autofocus placeholder="say somethink nice" ng-model="inputText" ng-change="translate()"></textarea>
+        <textarea  readonly class="translatebox" >{{translatedText}}</textarea><br>
+		
+
+    </div>
+	<br>
+		</div>
+<hr>
+	<div id="info"><div id="infotext"> Special thanks to <a href="https://twitter.com/Thegutsybird">Gutsybird</a> for the great word choice in his artwork.</div></div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+    <script type="text/javascript" src="dictionary.js"></script>
+    <script type="text/javascript" src="s4s.js"></script>
+</body>
+
+     </script>
+</html>
+

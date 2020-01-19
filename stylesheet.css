@@ -1,0 +1,89 @@
+html {
+	display: block;
+
+}
+ body {
+	background: #ffe url(fade.png) top center repeat-x;
+	color: maroon;
+	font-family: arial, helvetica, sans serif;
+	font-size: 10pt;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 8px;
+	height:100%;
+	
+}
+#bannerCnt {
+	border: 1px solid #800;
+	margin: 5px auto;
+	width: 300px;
+	height: 100px;
+	max-width: 100%;
+}
+#bannerCnt img {
+border: none;	
+}
+
+.PageTitle {
+	font-family: Tahoma,sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	margin-top: 0px;	
+}
+.PageBanner {
+	text-align: center;
+	clear: both;
+}
+hr {
+	border: none;
+	border-top: 1px solid #d9bfb7;
+width: 90%;
+height:0;
+}
+.translatebox {
+margin: auto;
+	height: 100%;
+max-width:45%;
+min-width:45%;
+
+}
+textarea {
+	 resize: none;
+background-color: #f0e0d6;
+color: maroon;
+border: 1px solid #d9bfb7;
+border-left: none;
+border-top: none;
+  left:10px; top:10px;
+
+}
+#textcontainers {
+  height: calc(50vh - 80px)!important;
+	    position:relative;
+width: 90%;
+left:8.99%;
+
+}
+.base {
+	max-height: 100%;
+}
+#info {
+		    position:relative;
+
+background-color: #f0e0d6;
+color: maroon;
+border: 1px solid #d9bfb7;
+border-left: none;
+border-top: none;
+  left:10px; top:10px;
+left:8.99%;
+width:81.85%;
+max-width:81.85%;
+min-width: 315.41px;}
+#infotext {
+	padding:10px;
+}
